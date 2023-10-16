@@ -6,7 +6,7 @@
   - [Build the Application Image](#build-the-application-image)
   - [Create and Test the Container](#create-and-test-the-container)
   - [Share the Docker Image](#share-the-docker-image)
-  - [Related articles](#related-articles)
+  - [Related Articles](#related-articles)
 
 # Get Started with Docker. Create a Docker Image
 
@@ -189,7 +189,7 @@ In the next tutorial, we will show how to share your image to the Docker registr
 
 You can also read the official Docker guide on [sharing the image](https://docs.docker.com/get-started/04_sharing_app/).
 
-## Related articles
+## Related Articles
 
 [Get Docker Desktop](https://docs.docker.com/get-docker/)
 
@@ -197,6 +197,8 @@ You can also read the official Docker guide on [sharing the image](https://docs.
 
 [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 
+[Docker Build Context](https://docs.docker.com/build/building/context/)
+
 [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/cli/)
 
-[Sharing the Application](https://docs.docker.com/get-started/04_sharing_app/)
+[Sharing the Docker Image](https://docs.docker.com/get-started/04_sharing_app/)
