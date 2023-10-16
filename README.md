@@ -169,13 +169,13 @@ A Docker container is a sandboxed process running on a host machine. A container
     * `--name server` — assign the name `server` to the container.
     * `exampleapp` — the name of the image to containerize.
 
-1. You should see the container ID:
+1. You should see the container ID, similar to the following:
 
     ```text
     f7a6449f80ee87003e40ef7746fd102695c4910ee94906e0711f97ca1765068f
     ```
 
-1. Open your web browser to http://localhost:8800. You should see the contents of the `/app` directory, served by the application in the container:
+1. Open your web browser to <http://localhost:8800>. You should see the contents of the `/app` directory, served by the application in the container:
 
     ![The page served byt the containerized web server](img/localhost_browser.png)
 
