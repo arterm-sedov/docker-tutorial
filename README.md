@@ -12,6 +12,8 @@
 
 This tutorial contains step-by-step instructions on creating your first Docker image and container for a basic web server app written in Python.
 
+After creating a Docker container with your application, you can deploy it to your Kubernetes cluster.
+
 This tutorial is for Linux users.
 
 ## Docker Image Definition
