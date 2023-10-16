@@ -185,7 +185,7 @@ A Docker container is a sandboxed process running on a host machine. A container
 
 ## Share the Docker Image
 
-In the next tutorial, we will show how to share your image to the Docker registry. The default registry is Docker Hub.
+In the next tutorial, we will show how to share your image to the Docker registry. The default registry is [Docker Hub](https://hub.docker.com/).
 
 You can also read the official Docker guide on [sharing the image](https://docs.docker.com/get-started/04_sharing_app/).
 
