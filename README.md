@@ -166,20 +166,20 @@ A Docker container is a sandboxed process running on a host machine. A container
 
     * `-p` — publish the container's port `8800` to `127.0.0.1:8800` (`localhost:8800`) on the host. Without this port mapping, you won't be able to access the application from the host.
     * `-d` — run the container in the background.
-    * `--name server` — assign the name `server` to the container.
+    * `--name` — assign the name `server` to the container.
     * `exampleapp` — the name of the image to containerize.
 
-1. You should see the container ID, similar to the following:
+2. You should see the container ID, similar to the following:
 
     ```text
     f7a6449f80ee87003e40ef7746fd102695c4910ee94906e0711f97ca1765068f
     ```
 
-1. Open your web browser to <http://localhost:8800>. You should see the contents of the `/app` directory, served by the application in the container:
+3. Open your web browser to <http://localhost:8800>. You should see the contents of the `/app` directory, served by the application in the container:
 
     ![The page served byt the containerized web server](img/localhost_browser.png)
 
-2. Stop the container:
+4. Stop the container:
 
     ```bash
     docker container stop server
