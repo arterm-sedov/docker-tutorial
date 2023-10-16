@@ -16,13 +16,13 @@ This tutorial is for Linux users.
 
 ## Docker Image Definition
 
-A Docker image provides an isolated filesystem to run the [container](#container-definition). The image must contain everything needed to run your application — all dependencies, configurations, scripts, binaries, etc. The image also contains configuration data for the container, such as environment variables, a default command to run, and other metadata.
+A Docker image provides an isolated filesystem to run the [container](#docker-container-definition). The image must contain everything needed to run your application — all dependencies, configurations, scripts, binaries, etc. The image also contains configuration data for the container, such as environment variables, a default command to run, and other metadata.
 
 ## Docker Container Definition
 
 A Docker container is a sandboxed process running on a host machine. A container:
 
-* Is a runnable instance of an [image](#image-definition).
+* Is a runnable instance of an [image](#docker-image-definition).
 * Can be run on local machines, virtual machines, or deployed to the cloud.
 * Is portable and can be run on any OS.
 * Is isolated from other containers and runs its own software, binaries, configurations, etc.
