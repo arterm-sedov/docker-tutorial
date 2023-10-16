@@ -10,7 +10,7 @@
 
 # Get Started with Docker. Create a Docker Image
 
-This tutorial contains step-by-step instructions creating your first Docker image and container for a basic web server app written in Python.
+This tutorial contains step-by-step instructions on creating your first Docker image and container for a basic web server app written in Python.
 
 This tutorial is for Linux users.
 
@@ -162,7 +162,7 @@ A Docker container is a sandboxed process running on a host machine. A container
 
     The `docker run` command above uses the following options:
 
-    * `-p` — publish  the container's port `8800` to `127.0.0.1:8800` (`localhost:8800`) on the host. Without this port mapping, you won't be able to access the application from the host.
+    * `-p` — publish the container's port `8800` to `127.0.0.1:8800` (`localhost:8800`) on the host. Without this port mapping, you won't be able to access the application from the host.
     * `-d` — run the container in the background.
     * `--name server` — assign the name `server` to the container.
     * `exampleapp` — the name of the image to containerize.
