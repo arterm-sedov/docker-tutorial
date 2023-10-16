@@ -97,7 +97,7 @@ A Docker container is a sandboxed process running on a host machine. A container
 1. Add the following Docker image configuration in the `Dockerfile`:
 
     ```dockerfile
-    # Use the base Python image from the Docker hub
+    # Use the base Python image from the Docker Hub
     FROM python:3.9
 
     # Set the working directory of the Docker container to '/app'. 
