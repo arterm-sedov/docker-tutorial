@@ -49,8 +49,8 @@ A Docker container is a sandboxed process running on a host machine. A container
     mkdir quickstart_docker/docker/application 
     ```
 
-    !!! note
-        This is a suggested directory structure to organize the Docker and application files. You can use a directory structure better suited for your project.
+    > **Note**
+    >    This is a suggested directory structure to organize the Docker and application files. You can use a directory structure better suited for your project.
 
 1. Go to the `quickstart_docker` directory. Replace `/path/to/quickstart_docker` with the path to your `quickstart_docker` directory:
 
