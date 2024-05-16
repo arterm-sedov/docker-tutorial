@@ -133,13 +133,13 @@ A Docker container is a sandboxed process running on a host machine. A container
 1. Build your application image using the `docker build` command:
 
     ```bash
-    docker build . -f docker/Dockerfile -t exampleapp
+    docker build . -f docker/application/Dockerfile -t exampleapp
     ```
 
     The `docker build` command above uses the following options:
 
     * `.` — use the current directory as the [build context](https://docs.docker.com/build/building/context/).
-    * `-f` — specify the `Dockerfile` path: `docker/Dockerfile`.
+    * `-f` — specify the `Dockerfile` path: `docker/application/Dockerfile`.
     * `-t` — tag the image, giving it a human-readable name: `exampleapp`. You can refer to the image name when running the container.
 
 1. View the image list:
