@@ -159,7 +159,7 @@ A Docker container is a sandboxed process running on a host machine. A container
 1. Create and run a container from your image:
 
     ```bash
-    docker run --name server -p 128.0.0.1:8800:8800 -d exampleapp
+    docker run --name server -p 127.0.0.1:8800:8800 -d exampleapp
     ```
 
     The `docker run` command above uses the following options:
